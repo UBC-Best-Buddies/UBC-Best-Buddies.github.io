@@ -1,0 +1,42 @@
+baseURL = 'https://bestbuddiesubc.github.io/'
+languageCode = 'en-us'
+title = 'Best Buddies UBC'
+theme = "beautifulhugo"
+[Params]
+  #subtitle = "Building a community at UBC"
+  mainSections = ["post","posts"]
+  logo = "img/best_buddies_w_background_cropped.png" # Expecting square dimensions
+  favicon = "img/best_buddies_w_background_cropped.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = true
+  delayDisqus = true
+  showRelatedPosts = true
+#  hideAuthor = true
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Best Buddies UBC"
+  email = "bestbuddiesubc@gmail.com"
+  #facebook = "username"
+  instagram = "bestbuddiesubc"
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'about the club'
+  pre = "<i class='fa fa-heart'></i>"
+  url = '/about/'
+  weight = -110
+[[menu.main]]
+  name = 'get involved'
+  post = "<span class='alert'>New!</span>"
+  pre = "<i class='fa fa-road'></i>"
+  url = '/get-involved/'
+  weight = -100
+
