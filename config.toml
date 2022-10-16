@@ -1,4 +1,4 @@
-baseURL = 'https://bestbuddiesubc.github.io/'
+baseURL = 'https://UBC-Best-Buddies.github.io/'
 languageCode = 'en-us'
 title = 'Best Buddies UBC'
 theme = "beautifulhugo"
@@ -12,9 +12,9 @@ theme = "beautifulhugo"
   rss = false
   comments = true
   readingTime = true
-  wordCount = true
+  wordCount = false 
   useHLJS = true
-  socialShare = true
+  socialShare = false 
   delayDisqus = true
   showRelatedPosts = true
 #  hideAuthor = true
